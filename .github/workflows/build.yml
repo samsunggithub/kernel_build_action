@@ -15,17 +15,17 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
+          kernel-url: https://github.com/Exynos2100-common/android_kernel_samsung_universal2100
           kernel-dir: msm-4.19
-          branch: taffy
-          config: cas_defconfig
+          branch: EWH5
+          config: exynos2100-p3sxxx_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
           ksu: true
           ksu-version: main
-          android-version: 12
-          aosp-clang-version: r383902
+          android-version: 13
+          aosp-clang-version: r450784d
           python-27: true
           disable-lto: true
           anykernel3: true
