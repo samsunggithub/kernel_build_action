@@ -15,7 +15,7 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/Exynos2100-common/android_kernel_samsung_universal2100
+          kernel-url: https://github.com/Exy2100-LOS/android_kernel_samsung_universal2100
           kernel-dir: msm-4.19
           branch: EWH5
           config: exynos2100-p3sxxx_defconfig
